@@ -51,6 +51,8 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Helpers.cs" />
+    <Compile Include="Library.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
@@ -65,6 +67,7 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <None Include="Properties\DataSources\Library.datasource" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -77,6 +80,24 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DotNetPlcInterface\DotNetPlcInterface.csproj">
+      <Project>{454653da-63dd-4bb4-b186-dc1f4bdc0922}</Project>
+      <Name>DotNetPlcInterface</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PNLBaseInterface\PNLBaseInterface.csproj">
+      <Project>{ebe8407c-8038-4f08-9811-6c8178580e38}</Project>
+      <Name>PNLBaseInterface</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\S7NPInterface\S7NPInterface.csproj">
+      <Project>{9b55590c-518f-4b19-a60d-a2e9f3532e25}</Project>
+      <Name>S7NPInterface</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Sharp7Interface\Sharp7Interface.csproj">
+      <Project>{059b1fb0-e670-4f50-a8c6-70b5d4032b6e}</Project>
+      <Name>Sharp7Interface</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

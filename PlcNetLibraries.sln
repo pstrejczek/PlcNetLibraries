@@ -1,11 +1,17 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26430.16
+VisualStudioVersion = 15.0.27004.2010
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlcNetLibraries", "PlcNetLibraries\PlcNetLibraries.csproj", "{CD623C1E-0033-43FA-9EBC-524D7C040E50}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PNLBaseInterface", "PNLBaseInterface\PNLBaseInterface.csproj", "{EBE8407C-8038-4F08-9811-6C8178580E38}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "S7NPInterface", "S7NPInterface\S7NPInterface.csproj", "{9B55590C-518F-4B19-A60D-A2E9F3532E25}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sharp7Interface", "Sharp7Interface\Sharp7Interface.csproj", "{059B1FB0-E670-4F50-A8C6-70B5D4032B6E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetPlcInterface", "DotNetPlcInterface\DotNetPlcInterface.csproj", "{454653DA-63DD-4BB4-B186-DC1F4BDC0922}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,8 +27,23 @@ Global
 		{EBE8407C-8038-4F08-9811-6C8178580E38}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EBE8407C-8038-4F08-9811-6C8178580E38}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EBE8407C-8038-4F08-9811-6C8178580E38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B55590C-518F-4B19-A60D-A2E9F3532E25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B55590C-518F-4B19-A60D-A2E9F3532E25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B55590C-518F-4B19-A60D-A2E9F3532E25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B55590C-518F-4B19-A60D-A2E9F3532E25}.Release|Any CPU.Build.0 = Release|Any CPU
+		{059B1FB0-E670-4F50-A8C6-70B5D4032B6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{059B1FB0-E670-4F50-A8C6-70B5D4032B6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{059B1FB0-E670-4F50-A8C6-70B5D4032B6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{059B1FB0-E670-4F50-A8C6-70B5D4032B6E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{454653DA-63DD-4BB4-B186-DC1F4BDC0922}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{454653DA-63DD-4BB4-B186-DC1F4BDC0922}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{454653DA-63DD-4BB4-B186-DC1F4BDC0922}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{454653DA-63DD-4BB4-B186-DC1F4BDC0922}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F010DD3B-D0E2-446B-8997-8DD463B586A6}
 	EndGlobalSection
 EndGlobal
